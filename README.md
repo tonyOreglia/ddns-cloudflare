@@ -46,13 +46,13 @@ cp .env.example .env
 touch ip-log.txt
 ``` 
 
-### 2. Make the script executable
+### 3. Make the script executable
 
 ```bash
 chmod +x cloudflare-ddns.sh
 ```
 
-### 3. Test manually
+### 4. Test manually
 
 ```bash
 ./cloudflare-ddns.sh
