@@ -34,13 +34,10 @@ cloudflare-ddns.sh
 .env
 ```
 
-### 1. Create `.env` file
+### 1. Create `.env` file and update the values
 
-```env
-ZONE_ID=your_zone_id
-RECORD_ID=your_dns_record_id
-API_TOKEN=your_cloudflare_api_token
-DNS_NAME=example.com
+```bash
+cp .env.example .env
 ```
 
 ### 2. Make the script executable
