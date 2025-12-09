@@ -52,7 +52,7 @@ chmod +x cloudflare-ddns.sh
 ./cloudflare-ddns.sh
 ```
 
-You should see progress logs and a `current_ip.txt` file created.
+You should see progress logs and a `ip-log.txt` file created.
 
 ---
 
@@ -82,7 +82,7 @@ This:
 
 | File | Purpose |
 |------|---------|
-| `current_ip.txt` | Stores last known public IP |
+| `ip-log.txt` | Stores last known public IP |
 | `cloudflare-ddns.log` | Optional cron logging output |
 
 ---
