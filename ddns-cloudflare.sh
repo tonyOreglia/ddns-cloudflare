@@ -4,12 +4,13 @@
 # Cloudflare DDNS Update Script
 ###########################################
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 # Load .env file
 set -a            # automatically export all variables
-source .env
+source "$SCRIPT_DIR/.env"
 set +a
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 IP_FILE="$SCRIPT_DIR/ip-log.txt"
 
 # REQUIRED SETTINGS
