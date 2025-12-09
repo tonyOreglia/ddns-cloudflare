@@ -40,6 +40,12 @@ cloudflare-ddns.sh
 cp .env.example .env
 ```
 
+### 2. Create the `ip-log.txt` file
+
+```bash
+touch ip-log.txt
+``` 
+
 ### 2. Make the script executable
 
 ```bash
